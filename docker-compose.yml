@@ -1,0 +1,17 @@
+services:
+  glance:
+    image: glanceapp/glance
+    env_file:
+      - stack.env
+    volumes:
+      - ./config:/app/config
+      - ./assets:/app/assets
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      nginx_proxy:
+    restart: unless-stopped
+
+networks:
+  nginx_proxy:
+    external: true
