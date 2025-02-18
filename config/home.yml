@@ -1,5 +1,5 @@
 - name: Home
-  width: slim
+  # width: slim
   center-vertically: true
   columns:
     - size: full
