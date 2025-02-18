@@ -57,9 +57,9 @@
     - size: small
       widgets:
         - type: weather
-          location: London, United Kingdom
+          location: Rio de Janeiro, Brazil
           units: metric # alternatively "imperial"
-          hour-format: 12h # alternatively "24h"
+          hour-format: 24h
           # Optionally hide the location from being displayed in the widget
           # hide-location: true
 
