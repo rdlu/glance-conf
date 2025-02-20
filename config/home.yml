@@ -9,7 +9,7 @@
 
         - type: monitor
           cache: 1m
-          title: Documents & Files (LAN)
+          title: Media, Docs, Files (LAN)
           sites:
             - title: Linkwarden
               url: https://link.dlu.one/
@@ -20,6 +20,12 @@
             - title: Frigate
               url: https://frigate.mocha.dlu.one/
               icon: di:frigate
+            - title: Ollama WebUI
+              url: https://ai.mocha.dlu.one/
+              icon: si:ollama
+            - title: Windmill
+              url: http://senku.at.dlu.one
+              icon: di:windmill
 
         - type: monitor
           cache: 1m
@@ -34,9 +40,9 @@
             - title: AdGuard Home
               url: https://ns2.at.dlu.one/
               icon: si:adguard
-            - title: OpenMediaVault
-              url: https://skuld.at.dlu.one/
-              icon: si:openmediavault
+            - title: Beszel Monitor
+              url: https://monitor.mocha.dlu.one/
+              icon: di:beszel
             - title: Proxy Mocha
               url: https://proxy.mocha.dlu.one/
               icon: si:nginxproxymanager
@@ -50,6 +56,8 @@
               links:
                 - title: Github
                   url: https://github.com/
+                - title: YouTube Music
+                  url: https://music.youtube.com
             - title: Entertainment
               links:
                 - title: YouTube
