@@ -16,13 +16,13 @@
               icon: di:linkwarden
             - title: Immich
               url: https://photos.dlu.one/
-              icon: si:immich
+              icon: di:immich
             - title: Frigate
               url: https://frigate.mocha.dlu.one/
               icon: di:frigate
             - title: Ollama WebUI
               url: https://ai.mocha.dlu.one/
-              icon: si:ollama
+              icon: di:ollama
             - title: Windmill
               url: http://senku.at.dlu.one
               icon: di:windmill
@@ -33,13 +33,13 @@
           sites:
             - title: Router
               url: https://router.at.dlu.one/
-              icon: si:opnsense
+              icon: di:opnsense
             - title: Zelda
               url: https://zelda.at.dlu.one:8006/
-              icon: si:proxmox
+              icon: di:proxmox
             - title: AdGuard Home
               url: https://ns2.at.dlu.one/
-              icon: si:adguard
+              icon: di:adguard
             - title: Beszel Monitor
               url: https://monitor.mocha.dlu.one/
               icon: di:beszel
