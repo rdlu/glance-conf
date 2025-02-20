@@ -9,49 +9,53 @@
 
         - type: monitor
           cache: 1m
-          title: Services
+          title: Documents & Files (LAN)
+          sites:
+            - title: Linkwarden
+              url: https://link.dlu.one/
+              icon: di:linkwarden
+            - title: Immich
+              url: https://photos.dlu.one/
+              icon: si:immich
+            - title: Frigate
+              url: https://frigate.mocha.dlu.one/
+              icon: di:frigate
+
+        - type: monitor
+          cache: 1m
+          title: Services (LAN)
           sites:
             - title: Router
               url: https://router.at.dlu.one/
               icon: si:opnsense
-            - title: Gitea
-              url: https://yourdomain.com/
-              icon: si:gitea
-            - title: Linkwarden
-              url: https://link.dlu.one/
-              icon: si:linkwarden
-            - title: Immich
-              url: https://photos.dlu.one/
-              icon: si:immich
             - title: AdGuard Home
               url: https://ns2.at.dlu.one/
               icon: si:adguard
-            - title: Vaultwarden
-              url: https://yourdomain.com/
-              icon: si:vaultwarden
+            - title: OpenMediaVault
+              url: https://skuld.at.dlu.one/
+              icon: si:openmediavault
+            - title: Proxy Mocha
+              url: https://proxy.mocha.dlu.one/
+              icon: si:nginxproxymanager
+            - title: Docker Mocha
+              url: https://docker.mocha.dlu.one/
+              icon: si:portainer
+
         - type: bookmarks
           groups:
             - title: General
               links:
-                - title: Gmail
-                  url: https://mail.google.com/mail/u/0/
-                - title: Amazon
-                  url: https://www.amazon.com/
                 - title: Github
                   url: https://github.com/
             - title: Entertainment
               links:
                 - title: YouTube
                   url: https://www.youtube.com/
-                - title: Prime Video
-                  url: https://www.primevideo.com/
-                - title: Disney+
-                  url: https://www.disneyplus.com/
-            - title: Social
+                - title: Crunchyroll
+                  url: https://www.crunchyroll.com/
+            - title: Utils
               links:
-                - title: Reddit
-                  url: https://www.reddit.com/
-                - title: Twitter
-                  url: https://twitter.com/
-                - title: Instagram
-                  url: https://www.instagram.com/
+                - title: Merry Sky
+                  url: https://merrysky.net/
+                - title: Proxmox Scripts
+                  url: https://community-scripts.github.io/ProxmoxVE/scripts
