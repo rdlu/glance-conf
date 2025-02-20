@@ -28,6 +28,9 @@
             - title: Router
               url: https://router.at.dlu.one/
               icon: si:opnsense
+            - title: Zelda
+              url: https://zelda.at.dlu.one:8006/
+              icon: si:proxmox
             - title: AdGuard Home
               url: https://ns2.at.dlu.one/
               icon: si:adguard
