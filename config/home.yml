@@ -39,7 +39,7 @@
               icon: di:proxmox
             - title: AdGuard Home
               url: https://ns2.at.dlu.one/
-              icon: di:adguard
+              icon: di:adguard-home
             - title: Beszel Monitor
               url: https://monitor.mocha.dlu.one/
               icon: di:beszel
