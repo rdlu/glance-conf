@@ -62,3 +62,12 @@
                   url: https://merrysky.net/
                 - title: Proxmox Scripts
                   url: https://community-scripts.github.io/ProxmoxVE/scripts
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+
+        - type: weather
+          location: Rio de Janeiro, Brazil
+          units: metric
+          hour-format: 24h
