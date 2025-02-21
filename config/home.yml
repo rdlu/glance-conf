@@ -13,22 +13,22 @@
           sites:
             - title: Linkwarden
               url: https://link.dlu.one/
-              icon: di:linkwarden
+              icon: /assets/icons/linkwarden.webp
             - title: Immich
               url: https://photos.dlu.one/
-              icon: di:immich
+              icon: /assets/icons/immich.svg
             - title: Ollama WebUI
               url: https://ai.mocha.dlu.one/
-              icon: di:ollama
+              icon: /assets/icons/ollama.svg
             - title: Windmill
               url: http://senku.at.dlu.one
-              icon: di:windmill
+              icon: /assets/icons/windmill.svg
             - title: Frigate
               url: https://frigate.mocha.dlu.one/
-              icon: di:frigate
+              icon: /assets/icons/frigate.svg
             - title: Frontcam
               url: https://porta.mocha.dlu.one
-              icon: di:foscam
+              icon: /assets/icons/foscam.webp
               alt-status-codes:
                 - 403
                 - 401
@@ -39,22 +39,22 @@
           sites:
             - title: Router
               url: https://router.at.dlu.one/
-              icon: di:opnsense
+              icon: /assets/icons/opnsense.svg
             - title: Zelda
               url: https://zelda.at.dlu.one:8006/
-              icon: di:proxmox
+              icon: /assets/icons/proxmox.svg
             - title: AdGuard Home
               url: https://ns2.at.dlu.one/
-              icon: di:adguard-home
+              icon: /assets/icons/adguard-home.svg
             - title: Beszel Monitor
               url: https://monitor.mocha.dlu.one/
-              icon: di:beszel
+              icon: /assets/icons/beszel.svg
             - title: Proxy Mocha
               url: https://proxy.mocha.dlu.one/
-              icon: di:nginx-proxy-manager
+              icon: /assets/icons/nginx-proxy-manager.svg
             - title: Docker Mocha
               url: https://docker.mocha.dlu.one/
-              icon: di:portainer
+              icon: /assets/icons/portainer.svg
 
         - type: bookmarks
           groups:

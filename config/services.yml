@@ -13,22 +13,22 @@
               sites:
                 - title: Router
                   url: https://router.at.dlu.one/
-                  icon: di:opnsense
+                  icon: /assets/icons/opnsense.svg
                 - title: Zelda
                   url: https://zelda.at.dlu.one:8006/
-                  icon: di:proxmox
+                  icon: /assets/icons/proxmox.svg
                 - title: AdGuard Home
                   url: https://ns2.at.dlu.one/
-                  icon: di:adguard-home
+                  icon: /assets/icons/adguard-home.svg
                 - title: Beszel Monitor
                   url: https://monitor.mocha.dlu.one/
-                  icon: di:beszel
+                  icon: /assets/icons/beszel.svg
                 - title: Proxy Mocha
                   url: https://proxy.mocha.dlu.one/
-                  icon: di:nginx-proxy-manager
+                  icon: /assets/icons/nginx-proxy-manager.svg
                 - title: Docker Mocha
                   url: https://docker.mocha.dlu.one/
-                  icon: di:portainer
+                  icon: /assets/icons/portainer.svg
 
             - type: monitor
               cache: 10m
@@ -36,10 +36,10 @@
               sites:
                 - title: Immich
                   url: https://photos.dlu.one/
-                  icon: di:immich
+                  icon: /assets/icons/immich.svg
                 - title: Frigate
                   url: https://frigate.mocha.dlu.one/
-                  icon: di:frigate
+                  icon: /assets/icons/frigate.svg
                 - title: go2rtc
                   url: https://go2rtc.mocha.dlu.one/
                   icon: si:go2rtc
@@ -48,16 +48,16 @@
                     - 401
                 - title: Jellyfin
                   url: http://media.at.dlu.one:8096/
-                  icon: di:jellyfin
+                  icon: /assets/icons/jellyfin.svg
                 - title: Frontcam
                   url: https://porta.mocha.dlu.one
-                  icon: di:foscam
+                  icon: /assets/icons/foscam.webp
                   alt-status-codes:
                     - 403
                     - 401
                 - title: OwnTone
                   url: http://skuld.at.dlu.one:3689/
-                  icon: di:owntone
+                  icon: /assets/icons/owntone.svg
 
             - type: monitor
               cache: 10m
@@ -65,26 +65,26 @@
               sites:
                 - title: Linkwarden
                   url: https://link.dlu.one/
-                  icon: di:linkwarden
+                  icon: /assets/icons/linkwarden.webp
                 - title: Ollama WebUI
                   url: https://ai.mocha.dlu.one/
-                  icon: di:ollama
+                  icon: /assets/icons/ollama.svg
                 - title: Paperless
                   url: http://paperless.at.dlu.one:8000
-                  icon: di:paperless-ngx
+                  icon: /assets/icons/paperless-ngx.svg
                 - title: Skuld
                   url: https://skuld.at.dlu.one/
-                  icon: di:openmediavault
+                  icon: /assets/icons/openmediavault.svg
                 - title: Syncthing
                   url: https://syncthing.at.dlu.one:8384/
-                  icon: di:syncthing
+                  icon: /assets/icons/syncthing.svg
                   allow-insecure: true
                 - title: Windmill
                   url: http://senku.at.dlu.one
-                  icon: di:windmill
+                  icon: /assets/icons/windmill.svg
                 - title: FreshRSS
                   url: https://rss.mocha.dlu.one
-                  icon: di:freshrss
+                  icon: /assets/icons/freshrss.svg
 
             - type: monitor
               cache: 1m
@@ -92,10 +92,10 @@
               sites:
                 - title: AptCacher
                   url: http://apt-cacher-ng.at.dlu.one:3142/acng-report.html
-                  icon: di:debian-linux
+                  icon: /assets/icons/debian-linux.svg
                 - title: MySpeed
                   url: http://myspeed.at.dlu.one:5216/
-                  icon: di:speedtest-tracker
+                  icon: /assets/icons/speedtest-tracker.webp
                 - title: Home Assistant
                   url: https://haos.at.dlu.one
-                  icon: di:home-assistant
+                  icon: /assets/icons/home-assistant.svg
