@@ -50,6 +50,8 @@
               url: http://skuld.at.dlu.one:3689/
               icon: di:owntone
 
+    - size: full
+      widgets:
         - type: monitor
           cache: 10m
           title: Documents & Files (LAN)
