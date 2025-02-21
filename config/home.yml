@@ -45,10 +45,10 @@
               icon: di:beszel
             - title: Proxy Mocha
               url: https://proxy.mocha.dlu.one/
-              icon: si:nginxproxymanager
+              icon: di:nginx-proxy-manager
             - title: Docker Mocha
               url: https://docker.mocha.dlu.one/
-              icon: si:portainer
+              icon: di:portainer
 
         - type: bookmarks
           groups:
