@@ -17,15 +17,21 @@
             - title: Immich
               url: https://photos.dlu.one/
               icon: di:immich
-            - title: Frigate
-              url: https://frigate.mocha.dlu.one/
-              icon: di:frigate
             - title: Ollama WebUI
               url: https://ai.mocha.dlu.one/
               icon: di:ollama
             - title: Windmill
               url: http://senku.at.dlu.one
               icon: di:windmill
+            - title: Frigate
+              url: https://frigate.mocha.dlu.one/
+              icon: di:frigate
+            - title: Frontcam
+              url: https://porta.mocha.dlu.one
+              icon: di:foscam
+              alt-status-codes:
+                - 403
+                - 401
 
         - type: monitor
           cache: 1m
