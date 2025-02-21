@@ -1,0 +1,91 @@
+- name: Services
+  # width: slim
+  center-vertically: true
+  columns:
+    - size: full
+      widgets:
+        - type: monitor
+          cache: 1m
+          title: Essentials (LAN)
+          sites:
+            - title: Router
+              url: https://router.at.dlu.one/
+              icon: di:opnsense
+            - title: Zelda
+              url: https://zelda.at.dlu.one:8006/
+              icon: di:proxmox
+            - title: AdGuard Home
+              url: https://ns2.at.dlu.one/
+              icon: di:adguard-home
+            - title: Beszel Monitor
+              url: https://monitor.mocha.dlu.one/
+              icon: di:beszel
+            - title: Proxy Mocha
+              url: https://proxy.mocha.dlu.one/
+              icon: si:nginxproxymanager
+            - title: Docker Mocha
+              url: https://docker.mocha.dlu.one/
+              icon: si:portainer
+
+        - type: monitor
+          cache: 10m
+          title: Photos & Video (LAN)
+          sites:
+            - title: Immich
+              url: https://photos.dlu.one/
+              icon: di:immich
+            - title: Frigate
+              url: https://frigate.mocha.dlu.one/
+              icon: di:frigate
+            - title: go2rtc
+              url: https://go2rtc.mocha.dlu.one/
+              icon: si:go2rtc
+            - title: Jellyfin
+              url: http://media.at.dlu.one:8096/
+              icon: di:jellyfin
+            - title: Frontcam
+              url: https://porta.mocha.dlu.one
+              icon: di:foscam
+            - title: OwnTone
+              url: http://skuld.at.dlu.one:3689/
+              icon: di:owntone
+
+        - type: monitor
+          cache: 10m
+          title: Documents & Files (LAN)
+          sites:
+            - title: Linkwarden
+              url: https://link.dlu.one/
+              icon: di:linkwarden
+            - title: Ollama WebUI
+              url: https://ai.mocha.dlu.one/
+              icon: di:ollama
+            - title: Paperless
+              url: http://paperless.at.dlu.one:8000
+              icon: di:paperless-ngx
+            - title: Skuld
+              url: https://skuld.at.dlu.one/
+              icon: di:openmediavault
+            - title: Syncthing
+              url: https://syncthing.at.dlu.one:8384/
+              icon: di:syncthing
+            - title: Windmill
+              url: http://senku.at.dlu.one
+              icon: di:windmill
+            - title: FreshRSS
+              url: https://rss.mocha.dlu.one
+              icon: di:freshrss
+
+        - type: monitor
+          cache: 1m
+          title: Network (LAN)
+          sites:
+            - title: AptCacher
+              url: http://apt-cacher-ng.at.dlu.one:3142/acng-report.html
+              icon: di:debian-linux
+            - title: MySpeed
+              url: http://myspeed.at.dlu.one:5216/
+              icon: di:speedtest-tracker
+            - title: Home Assistant
+              url: https://haos.at.dlu.one
+              icon: di:home-assistant
