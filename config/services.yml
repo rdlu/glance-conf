@@ -43,12 +43,18 @@
                 - title: go2rtc
                   url: https://go2rtc.mocha.dlu.one/
                   icon: si:go2rtc
+                  alt-status-codes:
+                    - 403
+                    - 401
                 - title: Jellyfin
                   url: http://media.at.dlu.one:8096/
                   icon: di:jellyfin
                 - title: Frontcam
                   url: https://porta.mocha.dlu.one
                   icon: di:foscam
+                  alt-status-codes:
+                    - 403
+                    - 401
                 - title: OwnTone
                   url: http://skuld.at.dlu.one:3689/
                   icon: di:owntone
@@ -72,6 +78,7 @@
                 - title: Syncthing
                   url: https://syncthing.at.dlu.one:8384/
                   icon: di:syncthing
+                  allow-insecure: true
                 - title: Windmill
                   url: http://senku.at.dlu.one
                   icon: di:windmill
