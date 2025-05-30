@@ -20,9 +20,9 @@
             - title: Ollama WebUI
               url: https://ai.mocha.dlu.one/
               icon: /assets/icons/ollama.svg
-            - title: Windmill
-              url: http://senku.at.dlu.one
-              icon: /assets/icons/windmill.svg
+            - title: Books
+              url: https://books.mocha.dlu.one
+              icon: /assets/icons/cal.svg
             - title: Frigate
               url: https://frigate.mocha.dlu.one/
               icon: /assets/icons/frigate.svg
