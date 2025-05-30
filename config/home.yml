@@ -46,6 +46,9 @@
             - title: AdGuard Home
               url: https://ns2.at.dlu.one/
               icon: /assets/icons/adguard-home.svg
+            - title: Pulse Monitor
+              url: http://pulse.at.dlu.one:7655
+              icon: /assets/icons/pulse.svg
             - title: Beszel Monitor
               url: https://monitor.mocha.dlu.one/
               icon: /assets/icons/beszel.svg
