@@ -79,9 +79,6 @@
                   url: https://syncthing.at.dlu.one:8384/
                   icon: /assets/icons/syncthing.svg
                   allow-insecure: true
-                - title: Windmill
-                  url: http://senku.at.dlu.one
-                  icon: /assets/icons/windmill.svg
                 - title: FreshRSS
                   url: https://rss.mocha.dlu.one
                   icon: /assets/icons/freshrss.svg
