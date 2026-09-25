@@ -17,9 +17,6 @@
             - title: Immich
               url: https://photos.dlu.one/
               icon: /assets/icons/immich.svg
-            - title: Ollama WebUI
-              url: https://ai.mocha.dlu.one/
-              icon: /assets/icons/ollama.svg
             - title: Books
               url: https://books.mocha.dlu.one
               icon: /assets/icons/cal.svg

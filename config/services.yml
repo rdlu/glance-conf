@@ -46,18 +46,12 @@
                   alt-status-codes:
                     - 403
                     - 401
-                - title: Jellyfin
-                  url: http://media.at.dlu.one:8096/
-                  icon: /assets/icons/jellyfin.svg
                 - title: Frontcam
                   url: https://porta.mocha.dlu.one
                   icon: /assets/icons/foscam.webp
                   alt-status-codes:
                     - 403
                     - 401
-                - title: OwnTone
-                  url: http://skuld.at.dlu.one:3689/
-                  icon: /assets/icons/owntone.svg
 
             - type: monitor
               cache: 10m
@@ -66,9 +60,6 @@
                 - title: Linkwarden
                   url: https://link.dlu.one/
                   icon: /assets/icons/linkwarden.webp
-                - title: Ollama WebUI
-                  url: https://ai.mocha.dlu.one/
-                  icon: /assets/icons/ollama.svg
                 - title: Paperless
                   url: http://paperless.at.dlu.one:8000
                   icon: /assets/icons/paperless-ngx.svg
@@ -85,14 +76,11 @@
 
             - type: monitor
               cache: 1m
-              title: Network (LAN)
+              title: Utilities (LAN)
               sites:
                 - title: AptCacher
                   url: http://apt-cacher-ng.at.dlu.one:3142/acng-report.html
                   icon: /assets/icons/debian-linux.svg
-                - title: MySpeed
-                  url: http://myspeed.at.dlu.one:5216/
-                  icon: /assets/icons/speedtest-tracker.webp
-                - title: Home Assistant
-                  url: https://haos.at.dlu.one
-                  icon: /assets/icons/home-assistant.svg
+                - title: DiscoPanel
+                  url: http://disco.at.dlu.one:8080/
+                  icon: /assets/icons/minecraft.svg
