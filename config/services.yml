@@ -80,9 +80,9 @@
                 - title: AptCacher
                   url: http://apt-cacher-ng.at.dlu.one:3142/acng-report.html
                   icon: /assets/icons/debian-linux.svg
-                - title: DiscoPanel
-                  url: http://disco.at.dlu.one:8080/
-                  icon: /assets/icons/minecraft.svg
+                - title: Crafty
+                  url: https://craft.at.dlu.one/
+                  icon: /assets/icons/crafty-controller.svg
                 - title: Adminer
                   url: https://db.at.dlu.one/adminer/
                   icon: /assets/icons/adminer.svg
