@@ -29,6 +29,9 @@
               alt-status-codes:
                 - 403
                 - 401
+            - title: Crafty
+              url: https://craft.at.dlu.one/
+              icon: /assets/icons/crafty-controller.svg
 
         - type: monitor
           cache: 1m
