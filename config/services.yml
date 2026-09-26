@@ -61,7 +61,7 @@
                   url: https://link.dlu.one/
                   icon: /assets/icons/linkwarden.webp
                 - title: Paperless
-                  url: http://paperless.at.dlu.one:8000
+                  url: https://paperless.at.dlu.one/
                   icon: /assets/icons/paperless-ngx.svg
                 - title: Skuld
                   url: https://skuld.at.dlu.one/
@@ -69,7 +69,6 @@
                 - title: Syncthing
                   url: https://syncthing.at.dlu.one:8384/
                   icon: /assets/icons/syncthing.svg
-                  allow-insecure: true
                 - title: FreshRSS
                   url: https://rss.mocha.dlu.one
                   icon: /assets/icons/freshrss.svg
