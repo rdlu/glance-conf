@@ -84,3 +84,6 @@
                 - title: DiscoPanel
                   url: http://disco.at.dlu.one:8080/
                   icon: /assets/icons/minecraft.svg
+                - title: Adminer
+                  url: https://db.at.dlu.one/adminer/
+                  icon: /assets/icons/adminer.svg
