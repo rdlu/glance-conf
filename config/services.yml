@@ -87,3 +87,6 @@
                 - title: Adminer
                   url: https://db.at.dlu.one/adminer/
                   icon: /assets/icons/adminer.svg
+                - title: WhoDB
+                  url: https://db.at.dlu.one/whodb/
+                  icon: /assets/icons/whodb.webp
