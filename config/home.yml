@@ -9,20 +9,29 @@
 
         - type: monitor
           cache: 1m
-          title: Media, Docs, Files (LAN)
+          title: Docs, Media, Cameras (LAN)
           sites:
+            # Docs
+            - title: Paperless
+              url: https://paperless.at.dlu.one/
+              icon: /assets/icons/paperless-ngx.svg
+            - title: Scanner
+              url: https://paperless.at.dlu.one/scan/
+              icon: /assets/icons/scanservjs.webp
             - title: Linkwarden
               url: https://link.dlu.one/
               icon: /assets/icons/linkwarden.webp
+            # Media
             - title: Immich
               url: https://photos.dlu.one/
               icon: /assets/icons/immich.svg
             - title: Books
               url: https://books.mocha.dlu.one
               icon: /assets/icons/cal.svg
-            - title: Scanner
-              url: https://paperless.at.dlu.one/scan/
-              icon: /assets/icons/scanservjs.webp
+            - title: Crafty
+              url: https://craft.at.dlu.one/
+              icon: /assets/icons/crafty-controller.svg
+            # Cameras
             - title: Frigate
               url: https://frigate.mocha.dlu.one/
               icon: /assets/icons/frigate.svg
@@ -32,9 +41,12 @@
               alt-status-codes:
                 - 403
                 - 401
-            - title: Crafty
-              url: https://craft.at.dlu.one/
-              icon: /assets/icons/crafty-controller.svg
+            - title: go2rtc
+              url: https://go2rtc.mocha.dlu.one/
+              icon: si:go2rtc
+              alt-status-codes:
+                - 403
+                - 401
 
         - type: monitor
           cache: 1m
