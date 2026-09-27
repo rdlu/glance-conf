@@ -11,20 +11,18 @@
           cache: 1m
           title: Docs & Media (LAN)
           sites:
-            # Docs
+            - title: Immich
+              url: https://photos.dlu.one/
+              icon: /assets/icons/immich.svg
+            - title: Linkwarden
+              url: https://link.dlu.one/
+              icon: /assets/icons/linkwarden.webp
             - title: Paperless
               url: https://paperless.at.dlu.one/
               icon: /assets/icons/paperless-ngx.svg
             - title: Scanner
               url: https://paperless.at.dlu.one/scan/
               icon: /assets/icons/scanservjs.webp
-            - title: Linkwarden
-              url: https://link.dlu.one/
-              icon: /assets/icons/linkwarden.webp
-            # Media
-            - title: Immich
-              url: https://photos.dlu.one/
-              icon: /assets/icons/immich.svg
             - title: Books
               url: https://books.mocha.dlu.one
               icon: /assets/icons/cal.svg
