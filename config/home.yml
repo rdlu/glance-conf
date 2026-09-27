@@ -9,7 +9,7 @@
 
         - type: monitor
           cache: 1m
-          title: Docs, Media, Cameras (LAN)
+          title: Docs & Media (LAN)
           sites:
             # Docs
             - title: Paperless
@@ -31,7 +31,11 @@
             - title: Crafty
               url: https://craft.at.dlu.one/
               icon: /assets/icons/crafty-controller.svg
-            # Cameras
+
+        - type: monitor
+          cache: 1m
+          title: Cameras (LAN)
+          sites:
             - title: Frigate
               url: https://frigate.mocha.dlu.one/
               icon: /assets/icons/frigate.svg
