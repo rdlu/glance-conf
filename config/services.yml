@@ -63,6 +63,9 @@
                 - title: Paperless
                   url: https://paperless.at.dlu.one/
                   icon: /assets/icons/paperless-ngx.svg
+                - title: Scanner
+                  url: https://paperless.at.dlu.one/scan/
+                  icon: /assets/icons/scanservjs.webp
                 - title: Skuld
                   url: https://skuld.at.dlu.one/
                   icon: /assets/icons/openmediavault.svg

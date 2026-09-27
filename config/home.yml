@@ -20,6 +20,9 @@
             - title: Books
               url: https://books.mocha.dlu.one
               icon: /assets/icons/cal.svg
+            - title: Scanner
+              url: https://paperless.at.dlu.one/scan/
+              icon: /assets/icons/scanservjs.webp
             - title: Frigate
               url: https://frigate.mocha.dlu.one/
               icon: /assets/icons/frigate.svg
