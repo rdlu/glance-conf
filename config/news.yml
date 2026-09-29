@@ -20,6 +20,8 @@
             - url: https://samwho.dev/rss.xml
             - url: https://ishadeed.com/feed.xml
               title: Ahmad Shadeed
+            - url: https://terminaltrove.com/totw.xml
+              title: Terminal Trove
 
         - type: twitch-channels
           channels:
