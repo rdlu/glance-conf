@@ -71,6 +71,15 @@
               name: Apple
             - symbol: MSFT
               name: Microsoft
+            - symbol: ^BVSP
+              name: Ibovespa
+              symbol-link: https://www.tradingview.com/symbols/BMFBOVESPA-IBOV/news
+            - symbol: MXRF11.SA
+              name: Maxi Renda FII
+              symbol-link: https://www.tradingview.com/symbols/BMFBOVESPA-MXRF11/news
+            - symbol: AUVP11.SA
+              name: AUVP11 ETF
+              symbol-link: https://www.tradingview.com/symbols/BMFBOVESPA-AUVP11/news
 
         - type: releases
           cache: 1d
