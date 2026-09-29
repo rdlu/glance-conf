@@ -8,7 +8,7 @@
           first-day-of-week: monday
 
         - type: rss
-          limit: 10
+          limit: 15
           collapse-after: 3
           cache: 12h
           feeds:
@@ -22,15 +22,6 @@
               title: Ahmad Shadeed
             - url: https://terminaltrove.com/totw.xml
               title: Terminal Trove
-
-        - type: twitch-channels
-          channels:
-            - theprimeagen
-            - j_blow
-            - piratesoftware
-            - cohhcarnage
-            - christitustech
-            - EJ_SA
 
     - size: full
       widgets:
