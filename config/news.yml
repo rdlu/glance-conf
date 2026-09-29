@@ -8,8 +8,8 @@
           first-day-of-week: monday
 
         - type: rss
-          limit: 15
-          collapse-after: 3
+          limit: 20
+          collapse-after: 10
           cache: 12h
           feeds:
             - url: https://selfh.st/rss/
