@@ -79,7 +79,6 @@
           # token: ...
           repositories:
             - glanceapp/glance
-            - go-gitea/gitea
             # mocha
             - immich-app/immich
             - linkwarden/linkwarden
