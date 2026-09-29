@@ -80,5 +80,21 @@
           repositories:
             - glanceapp/glance
             - go-gitea/gitea
+            # mocha
             - immich-app/immich
+            - linkwarden/linkwarden
+            - crocodilestick/Calibre-Web-Automated
+            - FreshRSS/FreshRSS
+            - henrygd/beszel
+            - NginxProxyManager/nginx-proxy-manager
+            - portainer/portainer
+            # zelda LXCs
+            - blakeblackshear/frigate
+            - AlexxIT/go2rtc
+            - paperless-ngx/paperless-ngx
+            - sbs20/scanservjs
             - syncthing/syncthing
+            - AdguardTeam/AdGuardHome
+            - gitlab:crafty-controller/crafty-4
+            - clidey/whodb
+            - vrana/adminer
