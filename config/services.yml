@@ -38,10 +38,10 @@
                   url: https://photos.dlu.one/
                   icon: /assets/icons/immich.svg
                 - title: Frigate
-                  url: https://frigate.mocha.dlu.one/
+                  url: https://frigate.at.dlu.one/
                   icon: /assets/icons/frigate.svg
                 - title: go2rtc
-                  url: https://go2rtc.mocha.dlu.one/
+                  url: https://frigate.at.dlu.one/go2rtc/
                   icon: si:go2rtc
                   alt-status-codes:
                     - 403

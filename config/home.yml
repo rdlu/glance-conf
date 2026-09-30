@@ -35,7 +35,7 @@
           title: Cameras (LAN)
           sites:
             - title: Frigate
-              url: https://frigate.mocha.dlu.one/
+              url: https://frigate.at.dlu.one/
               icon: /assets/icons/frigate.svg
             - title: Frontcam
               url: https://porta.mocha.dlu.one
@@ -44,7 +44,7 @@
                 - 403
                 - 401
             - title: go2rtc
-              url: https://go2rtc.mocha.dlu.one/
+              url: https://frigate.at.dlu.one/go2rtc/
               icon: si:go2rtc
               alt-status-codes:
                 - 403
